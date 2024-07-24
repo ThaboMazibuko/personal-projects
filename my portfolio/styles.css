@@ -2,6 +2,7 @@ body {
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f8f9fa;
 }
 
 .navbar-brand {
@@ -10,13 +11,13 @@ body {
 }
 
 .jumbotron {
-    padding: 5rem 1rem;
-    margin-bottom: 2rem;
+    padding: 2rem 1rem; /* Reduced padding */
+    margin-bottom: 1rem;
 }
 
 h2 {
     margin-top: 2rem;
-    color: #0056b3;
+    color: #0c2e53;
 }
 
 .card-title {
@@ -47,4 +48,8 @@ a:hover {
 
 ul {
     padding-left: 1rem;
+}
+
+header {
+    background-color: #e9ecef; /* Grey background */
 }
